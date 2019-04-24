@@ -20,7 +20,7 @@
   ],
   "frameworks": {
     "arduino": {
-      "package": "framework-arduinoteensy-mod",
+      "package": "framework-arduinoteensy-single-wire-mod",
       "script": "builder/frameworks/arduino.py"
     },
     "mbed": {
@@ -39,7 +39,7 @@
       "optional": false,
       "version": "~1.50401.0"
     },
-    "framework-arduinoteensy-mod": {
+    "framework-arduinoteensy-single-wire-mod": {
       "type": "framework",
       "optional": true,
       "version": "~1.145.0"
