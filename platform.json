@@ -15,11 +15,12 @@
   "version": "4.2.1",
   "packageRepositories": [
     "https://dl.bintray.com/platformio/dl-packages/manifest.json",
-    "http://dl.platformio.org/packages/manifest.json"
+    "http://dl.platformio.org/packages/manifest.json",
+    "https://raw.githubusercontent.com/TheNetStriker/JollyMecApi/master/Platform.io/manifest.json"
   ],
   "frameworks": {
     "arduino": {
-      "package": "framework-arduinoteensy",
+      "package": "framework-arduinoteensy-mod",
       "script": "builder/frameworks/arduino.py"
     },
     "mbed": {
@@ -38,7 +39,7 @@
       "optional": false,
       "version": "~1.50401.0"
     },
-    "framework-arduinoteensy": {
+    "framework-arduinoteensy-mod": {
       "type": "framework",
       "optional": true,
       "version": "~1.145.0"
