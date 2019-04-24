@@ -31,8 +31,8 @@ from SCons.Script import DefaultEnvironment
 env = DefaultEnvironment()
 platform = env.PioPlatform()
 
-FRAMEWORK_DIR = platform.get_package_dir("framework-arduinoteensy-mod")
-FRAMEWORK_VERSION = platform.get_package_version("framework-arduinoteensy-mod")
+FRAMEWORK_DIR = platform.get_package_dir("framework-arduinoteensy-single-wire-mod")
+FRAMEWORK_VERSION = platform.get_package_version("framework-arduinoteensy-single-wire-mod")
 assert isdir(FRAMEWORK_DIR)
 
 BUILTIN_USB_FLAGS = (
